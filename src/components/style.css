@@ -1,0 +1,460 @@
+/* /////////heathen army */
+
+
+* {
+    box-sizing: border-box;
+ 
+  }
+
+
+body{
+    background-image: url(/public/images/alexey-lastochkin-menu-background-with-title\ \(1\).jpg);
+    background-position: center;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0px 7px 0px red;
+    color:gold;
+    font-family: war-craft ;
+    font-size: 80px;
+    background-position: center;
+    padding: 60px;
+}
+
+
+
+
+@font-face {
+    font-family: metal-mania;
+    src: url(/fonts/MetalMania-Regular.ttf);
+   
+}
+
+@font-face {
+    font-family: war-craft ;
+    src: url(/fonts/LifeCraft_Font.ttf);
+}  
+    
+.heathen-army{
+    display: flex;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 10px;  
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!THRALL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@keyframes glow {
+    0%{
+        box-shadow: 0px 0px 3px 3px rgba(231, 247, 3, 0.753);
+    }
+    100%{
+        box-shadow: 0px 0px 15px 15px rgb(0, 255, 34);
+    }
+}
+
+@keyframes glow1 {
+    0%{
+        box-shadow: 0px 0px 3px 3px rgb(2, 156, 252);
+    }
+    100%{
+        box-shadow: 0px 0px 15px 15px whitesmoke;
+    }
+}
+
+img::after{
+    content:attr(aaww);
+}
+
+
+
+
+.img{
+    padding: 5px;
+    width: 170px;
+    height: 160px;
+    border-radius: 50%;  
+    cursor: pointer;
+    box-shadow:0px 12px rgba(231, 247, 3, 0.753);
+}
+
+.img:hover{
+    box-shadow:0px 12px rgba(230, 13, 13, 0.753);
+}
+
+.game{
+    margin:auto;
+    text-shadow: 0px 5px 5px red;
+    font-family: metal-mania;
+    color:black;
+    max-width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    margin:auto;
+    text-align: center;
+    border-radius: 4%;
+    background-image: url(/public/images/bbdd8c72f26604e11f82e63f751d1f56.jpg);
+    background-image: no-repeat;
+    background-image: center;
+    box-shadow: 0px 0px 20px 20px rgb(0, 255, 34);
+    animation-name: glow;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.paragraphOrc{
+    padding-bottom: 10px;
+    padding-top: 0px;
+    color:whitesmoke;
+    font-size: 19px;
+    font-weight: 530;
+    line-height: 9px;
+}
+
+.game1{
+    width: 600px;
+    border: 10px solid black;
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!GRUNT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+.grunt{
+    margin:auto;
+    text-shadow: 0px 5px 5px red;
+    font-family: metal-mania;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    /* margin-left: 120px;
+    margin-top: 100px; */
+    text-align: center;
+    border-radius: 4%;
+    background-position:right;
+    background-image: url(/public/images/Teldrassil_Burning.webp);
+    box-shadow: 0px 0px 10px 11px white;
+}
+
+.imgGrunt{
+    padding: 5px;
+    width: 165px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!HEAD-HUNTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+.head-hunter{
+    margin:auto;
+    text-shadow: 0px 5px 5px red;
+    font-family: metal-mania;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    /* margin-left: 120px;
+    margin-top: 100px; */
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 4%;
+    background-position: left;
+    background-image: url(/public/images/vol.webp);
+    box-shadow: 0px 0px 10px 11px rgb(128, 0, 128);
+}
+
+.imgTroll{
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+
+/* ///////////////////////////////  TAUREN ////////////////////////////////////// */
+
+.tauren{
+    margin:auto;
+    margin-left: 30px;
+    text-shadow: 0px 5px 5px red;
+    font-family: metal-mania;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 4%;
+    background-position:center;
+    
+    background-image: url(/public/images/Cairne_Bloodhoof_TCG.webp);
+    box-shadow: 0px 0px 10px 12px gold;
+}
+.imgTauren{
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+
+
+
+/* ///////////////////////////////  BLOOD-ELF ////////////////////////////////////// */
+
+.bloodElf{
+    margin:auto;
+    margin-left: 30px;
+    text-shadow: 0px 5px 5px red;
+    font-family: metal-mania;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 4%;
+    /* background-position: ; */
+    background-image: url(/public/images/Sylvanas_by_Astri_Lohne.webp);
+    box-shadow: 0px 0px 10px 11px rgb(3, 27, 245);
+}
+.imgBloodElf{
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+
+
+
+/* ///////////////////////////////  OGRE ////////////////////////////////////// */
+
+.ogre{
+    margin:auto;
+    margin-left: 30px;
+    text-shadow: 0px 5px 5px red;
+    font-family: metal-mania;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 4%;
+    background-position: top;
+    background-image: url(/public/images/Call_of_the_Wild_HS.webp);
+    box-shadow: 0px 0px 10px 11px red;
+}
+.imgOgre{
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+
+/* //////////////////////////////////ALLIANCE */
+
+
+.human{
+    margin:auto;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    /* margin-left: 120px;
+    margin-top: 100px; */
+    text-align: center;
+    border-radius: 4%;
+    background-position:center;
+    background-image: url(/public/images/CurseWorgen4CoverSample.webp);
+    box-shadow: 0px 0px 10px 12px darkslategrey;
+}
+
+.imgHuman{
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+.paragraphHuman{
+    text-shadow: 5px 5px 5px black;
+    font-family: war-craft;
+    color:whitesmoke;
+    font-size: 21px;
+    font-weight: 530;
+    line-height: 8px;
+}
+
+
+/* //////////////////////NIGHT-ELF////////////////// */
+
+
+
+.nightElf{
+    margin:auto;
+    margin-left: 30px;
+    color:black;
+    width: 220px;
+    height: 330px;;
+    border: 2px solid black;
+    /* margin-left: 120px;
+    margin-top: 100px; */
+    text-align: center;
+    border-radius: 4%;
+    background-position:center;
+    background-image: url(/public/images/Cenarius1.webp);
+    box-shadow: 0px 0px 10px 11px rgb(8, 230, 175);
+}
+
+
+/* ////////////////////////////DRAENEI///////////////////// */
+
+
+.draenei{
+    margin:auto;
+    margin-left: 30px;
+    color:black;
+    width: 220px;
+    height: 330px;;
+    border: 2px solid black;
+    /* margin-left: 120px;
+    margin-top: 100px; */
+    text-align: center;
+    border-radius: 4%;
+    background-position:left;
+    background-image: url(/public/images/Maraad27search.webp);
+    box-shadow: 0px 0px 10px 11px rgba(176, 5, 243, 0.719);
+}
+
+.imgDraenei{
+    padding: 5px;
+    width: 160px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+
+/* ///////////////    MAGE////////// */
+
+
+.mage{
+    margin:auto;
+    margin-left: 30px;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    /* margin-left: 120px;
+    margin-top: 100px; */
+    text-align: center;
+    border-radius: 4%;
+    background-position:left;
+    background-image: url(/public/images/Jaina_Tides_of_War.webp);
+    box-shadow: 0px 0px 10px 11px rgb(6, 193, 240);
+
+}
+
+.imgMage{
+    padding: 5px;
+    width: 155px;
+    height: 165px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+/* ////////////////////////  UTHER */
+
+
+.uther{
+    margin:auto;
+    margin-left: 30px;
+    color:black;
+    width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    /* margin-left: 120px;
+    margin-top: 100px; */
+    text-align: center;
+    border-radius: 4%;
+    background-position:center;
+    background-image: url(/public/images/Uther_HoW.webp);
+    box-shadow: 0px 0px 10px 11px rgb(255, 255, 255);
+}
+
+.imgUther{
+    
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+
+/* ///////////////////////  KING */
+
+
+
+.king{
+    margin:auto;
+    margin-top: 190px;
+    /* margin-left: 490px;
+    margin-bottom: 100px;  */
+    font-family: metal-mania;
+    color:black;
+    max-width: 220px;
+    height: 330px;
+    border: 2px solid black;
+    /* margin:auto; */
+    text-align: center;
+    border-radius: 4%;
+    background-position:center;
+    background-image: url(/public/images/StormwindCityTCG.webp);
+    background-image: center;
+    animation-name: glow1;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite; 
+}
+
+.imgKing{
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;  
+    cursor: pointer;
+    box-shadow:0px 12px rgb(121, 5, 121);
+}
+.imgKing:hover{
+    box-shadow:0px 12px rgba(101, 130, 190, 0.753);
+}
